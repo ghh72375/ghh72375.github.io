@@ -1,0 +1,363 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: white;
+    background-color: #333;
+}
+
+/* Image Styles */
+.image-container {
+    width: 100%;
+    height: 200px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Header Styles */
+header {
+    background-color: #444;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0.5rem 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.book-now-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+.book-now-button:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #444;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Why Choose Us Section Styles */
+.why-choose-us {
+    padding: 2rem;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.why-choose-us .reasons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.why-choose-us .reason {
+    width: 30%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+}
+
+.why-choose-us .reason h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.book-now-section-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 2rem auto;
+    width: fit-content;
+}
+
+.book-now-section-button:hover {
+    background-color: #0056b3;
+}
+
+/* Growth Journey Section Styles */
+.growth-journey {
+    background-color: #444;
+    padding: 2rem;
+    text-align: center;
+}
+
+.growth-journey h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.growth-journey .steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.growth-journey .step {
+    width: 30%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+}
+
+.growth-journey .step h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-me {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-me h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-me .book-now {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 1rem auto;
+    width: fit-content;
+}
+
+.about-me .book-now:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #444;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+/* Footer Links Styles */
+footer .footer-links ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .footer-links ul li {
+    margin: 0.5rem 1rem;
+}
+
+footer .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contact Form Styles */
+#contact {
+    text-align: left;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+#contact h2 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.1em;
+    color: #ddd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#contact label {
+    display: inline-block;
+    font-size: 1em;
+    color: white;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact input[type="datetime-local"] {
+    width: calc(100% - 160px);
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #555;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: #555;
+    color: white;
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact .submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+#contact .submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    header, footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .hero {
+        padding: 1rem;
+    }
+
+    .why-choose-us .reason,
+    .growth-journey .step {
+        width: 100%;
+    }
+
+    #contact .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #contact label {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact textarea,
+    #contact input[type="datetime-local"] {
+        width: 100%;
+    }
+
+    .book-now-button {
+        margin: 1rem auto;
+        width: fit-content;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .why-choose-us, .growth-journey, .about-me, #contact {
+        padding: 2rem 1rem;
+    }
+}

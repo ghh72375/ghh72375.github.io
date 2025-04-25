@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You! - ScaledbyHayes</title>
+    <link rel="stylesheet" href="../css.css/styles.css">
+    <link rel="stylesheet" href="../css.css/thankyou.css">
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="success-icon"></div>
+        <h1>Thank You!</h1>
+        <p>Your appointment request has been successfully submitted.</p>
+        <p><strong>An agent will contact you within 1-2 business days.</strong></p>
+        <p>We're excited to help you scale your business - <strong>you won't regret this!</strong></p>
+        <div class="brand-mention">[ScaledbyHayes]</div>
+        
+        <div class="buttons">
+            <button onclick="window.location.href='./'">Return Home</button>
+            <button class="exit" onclick="window.location.href='https://google.com'">Exit Site</button>
+        </div>
+        
+        <div class="footer">
+            &copy; <span id="currentYear"></span> ScaledbyHayes. All rights reserved.
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("currentYear").innerText = new Date().getFullYear();
+    </script>
+</body>
+</html>
